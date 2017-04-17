@@ -1,9 +1,9 @@
-#NeuralTalkAnimator
+# NeuralTalkAnimator
 
 The NeuralTalkAnimator is a python helper, that creates captioned videos with [NeuralTalk](https://github.com/karpathy/neuraltalk).   
 It takes a folder with videos and returns a folder with captuned videos back.   
 
-##Instruction
+## Instruction
 0) Download this repo  
 1) Download [VGG_ILSVRC_16_layers.caffemodel](http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_16_layers.caffemodel) and place it in the `python_features` folder  
 2) Download [coco_cnn_lstm_v2.p](https://cs.stanford.edu/people/karpathy/neuraltalk/coco_cnn_lstm_v2.zip) and place it in the `cv` folder  
@@ -11,11 +11,11 @@ It takes a folder with videos and returns a folder with captuned videos back.
 4) `python extract.py --captionfrequency 30`   
 5) Get videos with generated captions at `videos/processed`   
 
-##Requirements
+## Requirements
 - PIL   
 - FFMPEG  
 
-##Demo
+## Demo
 
 [https://www.youtube.com/watch?v=Nrh5Tpze79I](https://www.youtube.com/watch?v=Nrh5Tpze79I)   
 [https://www.youtube.com/watch?v=OTcQCM9daOU](https://www.youtube.com/watch?v=OTcQCM9daOU)
@@ -24,7 +24,7 @@ It takes a folder with videos and returns a folder with captuned videos back.
 ![captions](https://i.imgur.com/FH4aTUt.jpg)  
 
 
-#NeuralTalk
+# NeuralTalk
 
 This project contains *Python+numpy* source code for learning **Multimodal Recurrent Neural Networks** that describe images with sentences.
 
